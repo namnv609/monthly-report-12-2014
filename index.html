@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Monthly Report 12/2014</title>
+	<meta name="Author" content="-!-Nam - Battai [9xSoft Group]-!-" />
+	<meta name="Copyright" content="Copyright (c)2008-2013 by 9xSoft Group" />
+	<meta name="Description" content="9xSoft Group - All best for you!" />
+	<meta name="Keyword" content="9xsoft group, nam battai, all best for you, software, freeware" />
+	<link rel="stylesheet" href="styles/style.css" type="text/css" />
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=true&amp;libraries=places"></script>
+	<script type="text/javascript" src="scripts/map.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="latLngContainer" style="display:none"></div>
+		<div id="map-canvas"></div>
+		<div id="search-container">
+			<input type="text" id="keyword" autofocus />
+			<select name="" id="radius">
+				<option value="500">0.5 KM</option>
+				<option value="1000">01 KM</option>
+				<option value="2000">02 KM</option>
+				<option value="3000">03 KM</option>
+				<option value="4000">04 KM</option>
+				<option value="5000" selected="selected">05 KM</option>
+				<option value="6000">06 KM</option>
+				<option value="7000">07 KM</option>
+				<option value="8000">08 KM</option>
+				<option value="9000">09 KM</option>
+				<option value="10000">10 KM</option>
+			</select>
+			<button id="search">
+				Search
+			</button><br />
+			<input type="checkbox" id="direction" />
+			<label for="direction">Use Google Maps Directions Service</label>
+		</div>
+		<div id="copyright">
+			Designed by NamNV609.
+			Copyright &copy;2014 by NamNV609. All rights reserved.
+		</div>
+	</div>
+</body>
+</html>
